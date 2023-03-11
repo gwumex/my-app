@@ -1,10 +1,9 @@
 # place in .platform/hooks/prebuild/yarn.sh
 
 #!/bin/bash
-echo "Running sh-----------------------"
 
 # need to install node first to be able to install yarn (as at prebuild no node is present yet)
-sudo curl --silent --location https://rpm.nodesource.com/setup_16.x | sudo bash -
+sudo curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
 sudo yum -y install nodejs
 
 # install yarn
@@ -19,4 +18,4 @@ ls -lah
 
 yarn install --prod
 
-chown -R webapp:webapp node_modules/ || true # allow to fail
+chown -R webapp:webapp node_modules/ || true # allow to fai
