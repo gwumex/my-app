@@ -20,4 +20,3 @@ artifacts:
     - next.config.js
     - tsconfig.json
     - tsconfig.server.json
-  base-directory: 'out'
