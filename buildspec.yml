@@ -20,3 +20,4 @@ artifacts:
     - next.config.js
     - tsconfig.json
     - tsconfig.server.json
+    - .platform/**/*
