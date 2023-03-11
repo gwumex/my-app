@@ -20,3 +20,6 @@ artifacts:
     - next.config.js
     - tsconfig.json
     - tsconfig.server.json
+cache:
+  paths:
+    - node_modules/**/*
