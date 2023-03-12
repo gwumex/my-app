@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -20,6 +19,8 @@ artifacts:
     - next.config.js
     - tsconfig.json
     - tsconfig.server.json
+    - public/**/*
+    - .platform/**/*
 cache:
   paths:
     - node_modules/**/*
